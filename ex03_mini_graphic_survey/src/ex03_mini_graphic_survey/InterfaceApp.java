@@ -11,7 +11,7 @@ public class InterfaceApp {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Interface frame = new Interface();
+					SurveyInterface frame = new SurveyInterface();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
